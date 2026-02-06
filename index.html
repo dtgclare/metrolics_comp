@@ -29,99 +29,124 @@
     <body>
         <header class="header">
             <div class="container">
-                <h1 class="header-title">Metrolics</h1>
+                <h1 class="header-title">Metrolics.</h1>
                 <nav class="header-nav">
                     <ul class="header-nav-list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#intro">Intro</a></li>
+                        <li><a href="#studio">Studio</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-
-        <section class="home">
-            <div class="container">
-                <h2 class="home-title">Welcome to Metrolics</h2>
-                <p class="home-subtitle">
-                    This website was created for the MDIA 2003 Project1
-                    exercise!
-                </p>
-                <p class="home-description">
-                    Metrolics is a fictional company created for educational
-                    purposes. This website showcases the structure and design
-                    elements learned in the MDIA 2003 course.
-                </p>
-            </div>
-        </section>
-
-        <section class="about">
-            <div class="container">
-                <h2 class="about-title">About</h2>
-                <p class="about-description">Information about Metrolics.</p>
-            </div>
-        </section>
-
-        <section class="services">
-            <div class="container">
-                <h2 class="services-title">Services</h2>
-                <div class="services-list">
-                    <article class="services-item">
-                        <h3 class="services-item-title">Web Design</h3>
-                        <p class="services-item-text">
-                            Creating responsive websites
-                        </p>
-                        <img
-                            src="img/placeholder.png"
-                            alt="Web Design"
-                            class="services-item-img"
-                        />
-                    </article>
-                    <article class="services-item">
-                        <h3 class="services-item-title">App Development</h3>
-                        <p class="services-item-text">
-                            Building web applications
-                        </p>
-                        <img
-                            src="img/placeholder.png"
-                            alt="App Development"
-                            class="services-item-img"
-                        />
-                    </article>
-                    <article class="services-item">
-                        <h3 class="services-item-title">Digital Marketing</h3>
-                        <p class="services-item-text">
-                            Helping your website reach more customers
-                        </p>
-                        <img
-                            src="img/placeholder.png"
-                            alt="Digital Marketing"
-                            class="services-item-img"
-                        />
-                    </article>
+        <main class="main">
+            <section class="intro" id="intro">
+                <div class="container">
+                    <h2 class="intro-title">Digital Design Studio</h2>
+                    <p class="intro-subtitle">
+                        This website was created for the
+                        <strong>MDIA 2003 Project 1</strong>
+                        exercise
+                    </p>
+                    <p class="intro-description">
+                        Metrolics is a
+                        <strong>fictional studio project</strong> exploring
+                        layout structure and semantic HTML.
+                    </p>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="contact">
-            <div class="container">
-                <h2 class="contact-title">Contact Us</h2>
-                <form class="contact-form form">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required />
+            <section class="studio" id="studio">
+                <div class="container">
+                    <h2 class="studio-title">Studio</h2>
+                    <p class="studio-description">
+                        Metrolics is a studio focused on layouts, interaction,
+                        and digital design.
+                    </p>
+                </div>
+            </section>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required />
+            <section class="portfolio" id="portfolio">
+                <div class="container">
+                    <h2 class="portfolio-title">Portfolio</h2>
+                    <div class="portfolio-list">
+                        <article class="portfolio-item">
+                            <h3 class="portfolio-item-title">Web Design</h3>
+                            <p class="portfolio-item-text">
+                                Creating Responsive Websites
+                            </p>
+                            <img
+                                src="https://images.unsplash.com/photo-1654610285929-a1b63280dd60?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Web Design"
+                                class="portfolio-item-img"
+                            />
+                        </article>
+                        <article class="portfolio-item">
+                            <h3 class="portfolio-item-title">
+                                App Development
+                            </h3>
+                            <p class="portfolio-item-text">
+                                Building Web Applications
+                            </p>
+                            <img
+                                src="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?q=80&w=2089&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="App Development"
+                                class="portfolio-item-img"
+                            />
+                        </article>
+                        <article class="portfolio-item">
+                            <h3 class="portfolio-item-title">
+                                Digital Marketing
+                            </h3>
+                            <p class="portfolio-item-text">
+                                Reaching Customers
+                            </p>
+                            <img
+                                src="https://images.unsplash.com/photo-1562577309-2592ab84b1bc?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Digital Marketing"
+                                class="portfolio-item-img"
+                            />
+                        </article>
+                    </div>
+                </div>
+            </section>
 
-                    <label for="message">Text:</label>
-                    <textarea id="message" name="message" required></textarea>
+            <section class="contact">
+                <div class="container">
+                    <h2 class="contact-title">Contact</h2>
+                    <form class="contact-form">
+                        <label for="name">Name:</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Name"
+                            required
+                        />
 
-                    <button type="submit">Submit</button>
-                    <button type="reset">Reset</button>
-                </form>
-            </div>
-        </section>
+                        <label for="email">Email:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Email"
+                        />
+
+                        <label for="message">Message:</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Text"
+                            required
+                        ></textarea>
+
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                </div>
+            </section>
+        </main>
 
         <footer class="footer">
             <div class="footer-container container">
